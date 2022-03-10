@@ -1069,8 +1069,8 @@ blockquote p {
 }
 
 #price-tables #plans .plan {
-  width: 24%;
-  margin: 1.2em 1.33% 20px 0;
+  width: 45%;
+  margin: 1.2em 3.33% 20px 1.2em;
 }
 
 #price-tables #plans > li:last-child {
