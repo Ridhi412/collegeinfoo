@@ -524,6 +524,9 @@ blockquote p {
   background-image: url('images/logo.jpeg');
 }
 
+.parallax3 {
+  background-image: url('images/slider/alliance-ba2.jpg');
+}
 .parallax-section .content, .top-slider .content-header, .home-slider {
   margin: 0 auto;
   text-align: center;
