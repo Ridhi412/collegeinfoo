@@ -502,6 +502,10 @@ blockquote p {
 
 .parallax4 {
   background-image: url('images/slider/alliance-ba2.jpg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: 100pc;
+  height: 45pc;
 }
 .parallax-section .content, .top-slider .content-header, .home-slider {
   margin: 0 auto;
