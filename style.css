@@ -1192,6 +1192,19 @@ blockquote p {
   margin-top: 0;
 }
 
+.info {
+  padding-top: 0;
+}
+
+.info h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+.info .address h3 {
+  margin-top: 0;
+}
+
 address {
   margin-top: 3em;
 }
@@ -1246,6 +1259,10 @@ address i {
 }
 
 .contact-form .form {
+  padding: 0;
+}
+
+.info-form .form {
   padding: 0;
 }
 
