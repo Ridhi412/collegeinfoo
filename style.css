@@ -482,7 +482,7 @@ blockquote p {
 ********************************************************* */
 
 .parallax-section {
-  z-index: -2;
+  z-index: -1;
   clear: both;
   background-image: url('images/logo_main_bg.jpg');
   background-attachment: fixed;
@@ -492,8 +492,15 @@ blockquote p {
 .parallax2 {
   background-image: url('images/bg_colour.jpg');
 }
-
 .parallax3 {
+  background-image: url('images/ben2.jpeg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: 100pc;
+  height: 45pc;
+}
+
+.parallax4 {
   background-image: url('images/slider/alliance-ba2.jpg');
 }
 .parallax-section .content, .top-slider .content-header, .home-slider {
