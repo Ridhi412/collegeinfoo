@@ -1,34 +1,3 @@
-/*
-	The7 by TEMPLATE STOCK
-	templatestock.co @templatestock
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
-/*
-
-[Table of content]
-
-1. General Styling
-2. Header
-3. Home Slider, Parallax & Video
-4. Services Section
-5. Work Section
-6. Logo Carousel
-7. CLient Carousel
-8. Blog Section
-9. Pricing Section
-10. Contact & Comment Forms
-11. Footer
-12. Loader
-13. Clearfix
-
-
-[Color codes]
-Green #3b89b6
-Dark Blue #16a085
-Grey #ECF0F1
-
-*/
 
 /* *********************************************************
   General Styling 
@@ -421,6 +390,7 @@ blockquote p {
   position: relative;
   display: inline;
   float: left;
+  font-size: 1.1rem;
 }
 
 .navigation a {
@@ -514,14 +484,13 @@ blockquote p {
 .parallax-section {
   z-index: -2;
   clear: both;
-  background-image: url('images/logo.jpeg');
-  background-repeat: repeat;
+  background-image: url('images/logo_main_bg.jpg');
   background-attachment: fixed;
   background-position: center center;
 }
 
 .parallax2 {
-  background-image: url('images/logo.jpeg');
+  background-image: url('images/bg_colour.jpg');
 }
 
 .parallax3 {
@@ -549,6 +518,9 @@ blockquote p {
 .parallax-section .content h3,
 .content-header h3 {
   color: #fff;
+  position: relative;
+  top: -30px;
+
 }
 
 .parallax-section h2 > span,
@@ -620,6 +592,28 @@ blockquote p {
   margin-bottom: 10px;
 }
 
+/* services 2 */
+
+#services_2{
+  position: relative;
+  top: 50px;
+}
+
+#service_1 h3{
+  text-align: center;
+}
+
+#section_2{
+  position: relative;
+  top: 20px;
+}
+
+#section_3{
+  position: relative;
+  top: 0px;
+}
+
+
 /* *********************************************************
   Work Section
 ********************************************************* */
@@ -687,6 +681,7 @@ blockquote p {
 
 .recent-work img {
   width: 100%;
+  height: 220px;
   margin-bottom: -9px;
 /*border-radius*/
   -webkit-border-radius: 5px;
@@ -953,9 +948,6 @@ blockquote p {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.options li:last-child {
 }
 
 #price-tables:after {
@@ -1817,3 +1809,4 @@ footer p, footer a {
     font-size: 1.5em;
     padding: 8px;
   }
+}
