@@ -247,21 +247,7 @@ a:hover {
   font-size: 40px;
   font-size: 2.0625rem;
 }
-#name .title {
-  font-family: Alice, Georgia, serif;
-  font-size: 40px;
-  font-size: 2.0625rem;
-  padding: 32px 20px 35px 35px;
-  margin-top: 200px;
-  margin-bottom: 200px;
-}
-.title {
-  font-size: 300pc;
-}
-#name .titlename {
-  padding: 32px 20px 35px 35px;
-  margin-top: 200px;
-}
+
 #head .contact {
   font-family: Alice, Georgia, serif;
   font-size: 40px;
