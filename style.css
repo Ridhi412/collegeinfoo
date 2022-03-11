@@ -591,6 +591,28 @@ blockquote p {
   margin-bottom: 10px;
 }
 
+/* services 2 */
+
+#services_2{
+  position: relative;
+  top: 50px;
+}
+
+#service_1 h3{
+  text-align: center;
+}
+
+#section_2{
+  position: relative;
+  top: 20px;
+}
+
+#section_3{
+  position: relative;
+  top: 20px;
+}
+
+
 /* *********************************************************
   Work Section
 ********************************************************* */
