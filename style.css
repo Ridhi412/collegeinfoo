@@ -390,6 +390,7 @@ blockquote p {
   position: relative;
   display: inline;
   float: left;
+  font-size: 1.1rem;
 }
 
 .navigation a {
@@ -489,7 +490,7 @@ blockquote p {
 }
 
 .parallax2 {
-  background-image: url('images/logo.jpeg');
+  background-image: url('images/logo_main_bg.jpg');
 }
 
 .parallax3 {
@@ -609,7 +610,7 @@ blockquote p {
 
 #section_3{
   position: relative;
-  top: 20px;
+  top: 0px;
 }
 
 
@@ -680,6 +681,7 @@ blockquote p {
 
 .recent-work img {
   width: 100%;
+  height: 220px;
   margin-bottom: -9px;
 /*border-radius*/
   -webkit-border-radius: 5px;
